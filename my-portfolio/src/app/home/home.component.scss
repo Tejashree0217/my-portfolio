@@ -1,0 +1,28 @@
+// .body{
+//   background-color: gray;
+// }
+.body {
+  background-color: gray; /* Change this to your desired background color */
+  padding: 20px; /* Add some padding around the body */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: flex-end; /* Align items to the right */
+
+}
+
+nav li {
+  margin-right: 100px; /* Space between the items */
+}
+
+nav li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+body,html{
+  background-color: pink;
+}

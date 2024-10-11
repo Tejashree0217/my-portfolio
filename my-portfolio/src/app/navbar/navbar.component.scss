@@ -1,0 +1,39 @@
+.body {
+  background-color: gray; /* Change this to your desired background color */
+  padding: 20px; /* Add some padding around the body */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: flex-end; /* Align items to the right */
+
+}
+
+
+nav li {
+  margin-right: 100px; /* Space between the items */
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+nav li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+
+nav li:hover a{
+  color: pink; /* Change color to pink on hover */
+  text-decoration: underline; /* Underline text on hover */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+
