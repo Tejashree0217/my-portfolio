@@ -1,0 +1,65 @@
+<!-- <div class="container">
+
+<div class="card">
+  <div style="margin-bottom: 2%;">
+    <label>Name:</label>&nbsp;
+    <input pInputText placeholder="Enter Your Name" />
+  </div>
+  <div style="margin-bottom: 2%;">
+
+    <label>Email:</label>&nbsp;
+    <input pInputText placeholder="Enter Your Email" />
+  </div>
+
+  <p-button
+    [style]="{'border-radius':'3%','margin-left':'21%'}">
+    Click to Voice Typing</p-button>
+</div>
+</div> -->
+
+
+<!-- <div class="container">
+  <div class="card">
+    <div style="margin-bottom: 2%;">
+      <label>Name:</label>&nbsp;
+      <input pInputText placeholder="Enter Your Name" #nameInput />
+    </div>
+    <div style="margin-bottom: 2%;">
+      <label>Email:</label>&nbsp;
+      <input pInputText placeholder="Enter Your Email" #emailInput />
+    </div>
+
+    <p-button (click)="startVoiceTyping('name', nameInput)" [style]="{ 'border-radius': '3%', 'margin-left': '21%' }">
+      Click to Voice Typing Name
+    </p-button>
+
+    <p-button (click)="startVoiceTyping('email', emailInput)" [style]="{ 'border-radius': '3%', 'margin-left': '21%' }">
+      Click to Voice Typing Email
+    </p-button>
+  </div>
+</div> -->
+
+
+
+
+
+<div class="container">
+  <div class="card">
+    <div style="margin-bottom: 2%;">
+      <label>Name:</label>&nbsp;
+      <input pInputText placeholder="Enter Your Name" #nameInput />
+    </div>
+    <div style="margin-bottom: 2%;">
+      <label>Email:</label>&nbsp;
+      <input pInputText placeholder="Enter Your Email" #emailInput />
+    </div>
+
+    <p-button (click)="startVoiceTyping('name')" [style]="{ 'border-radius': '3%', 'margin-left': '21%' }">
+      Click to Voice Typing Name
+    </p-button>
+
+    <p-button (click)="startVoiceTyping('email')" [style]="{ 'border-radius': '3%', 'margin-left': '21%' }">
+      Click to Voice Typing Email
+    </p-button>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+html, body {
+  height: 100%; /* Ensure the body takes up the full height of the page */
+  margin: 0;    /* Remove default margins */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.card {
+  border: 2px solid rgb(210, 207, 207);
+  border-radius: 15px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
